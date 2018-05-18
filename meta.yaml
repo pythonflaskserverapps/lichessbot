@@ -1,0 +1,29 @@
+package:
+  name: lichessbot
+  version: "1.1.0"
+
+source:
+  git_rev: v1.1.0
+  git_url: https://github.com/pythonflaskserverapps/lichessbot.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - chardet==3.0.4    
+    - idna==2.6
+    - PyYAML==3.12
+    - requests==2.18.4
+    - urllib3==1.22           
+    - python-chess==0.23.5
+    - backoff==1.5.0
+
+test:
+  imports:
+    - lichessbot
+
+about:
+  home: https://github.com/pythonflaskserverapps/lichessbot
+  license: MIT
+  license_file: LICENSE
