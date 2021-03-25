@@ -17,7 +17,7 @@ setup(name='lichessbot',
         "chardet==3.0.4",        
         "idna==2.6",
         "python-chess==0.23.5",
-        "PyYAML==3.12",
+        "PyYAML==5.4",
         "requests==2.18.4",
         "urllib3==1.22",
         "backoff==1.5.0"
